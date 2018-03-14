@@ -4,19 +4,25 @@ body {
     font-family: Calibri, sans-serif;
     font-size: 20px;
     color: #212121;
-    min-height: 100%;
+}
+
+.main-wrapper {
+    width:100%;
+    margin: auto;
+    background-color: orchid;
 }
 
 section {
     margin:auto;
     /* lo hago en 1366px porque no me da la res de la notebook, no es rebeldía*/
-    width: 1366px;
+    /* bueno, ok, es obligatorio hacerlo en 1480px, aquí voy */
+    width: 1480px;
     text-align: center;
 }
 
 div.big {
     margin: 10px auto;
-    width:1366px;
+    width:1480px;
     min-height:440px;
     background-image: url('../img/coming-soon.gif');
 }
@@ -54,6 +60,5 @@ div.social {
 footer {
     padding-top: 20px;
     text-align: center;
-    clear: both;
     font-size: 18px;
 }
