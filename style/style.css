@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #212121;
+}
+
+section {
+    margin:auto;
+    /* lo hago en 1366px porque no me da la res de la notebook, no es rebeldía*/
+    width: 1366px;
+    text-align: center;
+}
+
+div.big {
+    margin: 10px auto;
+    width:1366px;
+    min-height:440px;
+    background-image: url('../img/coming-soon.gif');
+}
+
+div.newsletter {
+    margin-top:40px;
+}
+
+.contact {
+    background-color: #e2e2e2;
+    width: 250px;
+    height:30px;
+    border: 1px solid black;
+}
+
+.accept {
+    background-color: #82b1ff;
+    border: 1px solid black;
+    border-left: 0;
+    width: 100px;
+    height: 34px;
+    color: white;
+    font-weight: bold;
+}
+
+div.social {
+    height: 36px;
+    width: 36px;
+    display: inline;
+    float: right;
+    margin: 30px 0 0 30px;
+    background-color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
