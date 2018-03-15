@@ -1,15 +1,14 @@
 html, body {
     padding: 0;
     margin: 0;
-    min-height: 100vh;
     font-family: Calibri, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #212121;
 }
 
 .main-wrapper {
     width:1480px;
-    height: 100vh;
+    height: 900px;
     margin: auto;
     position: relative;
 }
@@ -23,14 +22,14 @@ section {
 }
 
 div.big {
-    margin: 0 auto;
+    margin: 60px auto 0;
     width:1480px;
     min-height:440px;
     background-image: url('../img/coming-soon.gif');
 }
 
 div.newsletter {
-    margin-top:40px;
+    margin-top:60px;
 }
 
 .contact {
@@ -52,6 +51,7 @@ div.newsletter {
 
 .social-wrapper {
     text-align: right;
+    margin-top: 60px;
 }
 
 div.social {
@@ -59,7 +59,6 @@ div.social {
     width: 36px;
     display: inline-block;
     margin: 30px 0px 30px 15px;
-    background-color: #fff;
 }
 
 footer {
@@ -68,5 +67,4 @@ footer {
     bottom: 0;
     left:0;
     right: 0;
-    font-size: 18px;
 }
